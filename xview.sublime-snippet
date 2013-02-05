@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+Ext.define('${1:MyApp}.view.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+    extend: '${2:Ext.Container}',
+    layout: {
+        type: '${3:auto}'
+    },
+    items: [{
+        $4
+    }]
+});
+
+]]></content>
+<tabTrigger>xview</tabTrigger>
+<scope>source.js</scope>
+</snippet>

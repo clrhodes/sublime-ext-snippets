@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+Ext.define('${1:MyApp}.store.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+    extend: 'Ext.data.Store',
+    model: '${2}',
+    autoLoad: ${3:true},
+    remoteSort: ${4:true},
+    remoteFilter: ${5:true}
+});
+
+]]></content>
+<tabTrigger>xstore</tabTrigger>
+<scope>source.js</scope>
+</snippet>

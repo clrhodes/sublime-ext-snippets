@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+Ext.application({
+   name: '$1',
+   autoCreateViewport: true,
+   controllers: ['$2'],
+   launch: function() {
+        $3
+        console.log('Application launched.');
+   }
+});
+
+]]></content>
+<tabTrigger>xapp</tabTrigger>
+<scope>source.js</scope>
+</snippet>

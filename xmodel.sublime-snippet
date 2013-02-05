@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Ext.define('${1:MyApp}.model.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+	extend: 'Ext.data.Model',
+	idProperty: '${2:id}',
+	fields: [{
+		name: '${3:id}',
+		type: '${4:int}'
+	}]
+});
+
+]]></content>
+<tabTrigger>xmodel</tabTrigger>
+<scope>source.js</scope>
+</snippet>

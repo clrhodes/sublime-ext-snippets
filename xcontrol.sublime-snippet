@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+Ext.define('${1:MyApp}.controller.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+    extend: 'Ext.app.Controller',
+    models: [],
+    stores: [],
+    views: [],
+    refs: [],
+    init: function() {
+        this.control({
+            $2
+        });
+    }
+});
+
+]]></content>
+<tabTrigger>xcontrol</tabTrigger>
+<scope>source.js</scope>
+</snippet>
