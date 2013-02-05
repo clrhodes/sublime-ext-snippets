@@ -30,12 +30,14 @@ Sencha ExtJS Snippets
         $3
         console.log('Application launched.');
    }
-});```
+});
+```
 
 
 ### [xview] Ext.Container 
 
-```Ext.define('${1:MyApp}.view.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+```
+Ext.define('${1:MyApp}.view.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
     extend: '${2:Ext.Container}',
     layout: {
         type: '${3:auto}'
@@ -43,12 +45,14 @@ Sencha ExtJS Snippets
     items: [{
         $4
     }]
-});```
+});
+```
 
 
 ### [xcontrol] Ext.app.Controller
 
-```Ext.define('${1:MyApp}.controller.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+```
+Ext.define('${1:MyApp}.controller.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
     extend: 'Ext.app.Controller',
     models: [],
     stores: [],
@@ -59,30 +63,35 @@ Sencha ExtJS Snippets
             $2
         });
     }
-});```
+});
+```
 
 
 ### [xmodel] Ext.data.Model
 
-```Ext.define('${1:MyApp}.model.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+```
+Ext.define('${1:MyApp}.model.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
     extend: 'Ext.data.Model',
     idProperty: '${2:id}',
     fields: [{
         name: '${3:id}',
         type: '${4:int}'
     }]
-});```
+});
+```
 
 
 ### [xstore] Ext.data.Store
 
-```Ext.define('${1:MyApp}.store.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
+```
+Ext.define('${1:MyApp}.store.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
     extend: 'Ext.data.Store',
     model: '${2}',
     autoLoad: ${3:true},
     remoteSort: ${4:true},
     remoteFilter: ${5:true}
-});```
+});
+```
 
 
 Author
