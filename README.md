@@ -30,8 +30,7 @@ Sencha ExtJS Snippets
         $3
         console.log('Application launched.');
    }
-});
-```
+});```
 
 
 ### [xview] Ext.Container 
@@ -44,8 +43,7 @@ Sencha ExtJS Snippets
     items: [{
         $4
     }]
-});
-```
+});```
 
 
 ### [xcontrol] Ext.app.Controller
@@ -61,8 +59,7 @@ Sencha ExtJS Snippets
             $2
         });
     }
-});
-```
+});```
 
 
 ### [xmodel] Ext.data.Model
@@ -74,8 +71,7 @@ Sencha ExtJS Snippets
         name: '${3:id}',
         type: '${4:int}'
     }]
-});
-```
+});```
 
 
 ### [xstore] Ext.data.Store
@@ -86,8 +82,7 @@ Sencha ExtJS Snippets
     autoLoad: ${3:true},
     remoteSort: ${4:true},
     remoteFilter: ${5:true}
-});
-```
+});```
 
 
 Author
