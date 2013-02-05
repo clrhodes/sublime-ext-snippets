@@ -32,6 +32,8 @@ Sencha ExtJS Snippets
    }
 });
 ```
+
+
 ### [xview] Ext.Container 
 
 ```Ext.define('${1:MyApp}.view.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
@@ -44,6 +46,8 @@ Sencha ExtJS Snippets
     }]
 });
 ```
+
+
 ### [xcontrol] Ext.app.Controller
 
 ```Ext.define('${1:MyApp}.controller.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
@@ -60,6 +64,7 @@ Sencha ExtJS Snippets
 });
 ```
 
+
 ### [xmodel] Ext.data.Model
 
 ```Ext.define('${1:MyApp}.model.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
@@ -72,6 +77,7 @@ Sencha ExtJS Snippets
 });
 ```
 
+
 ### [xstore] Ext.data.Store
 
 ```Ext.define('${1:MyApp}.store.${TM_FILENAME/(.*)[.](.*)/$1/g}', {
@@ -82,6 +88,7 @@ Sencha ExtJS Snippets
     remoteFilter: ${5:true}
 });
 ```
+
 
 Author
 --------
